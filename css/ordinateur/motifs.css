@@ -77,15 +77,29 @@ nav ul li a:hover{
 }
 
 .social{
-	
+	margin-bottom: 50px;
 }
-.mentions1{
+.facebook{
+	color: #d33b26;
+}
+.twitter{
+	color: #d33b26;
+}
+.instagram{
+	color: #d33b26;
+}
+.pinterest{
+	color: #d33b26;
+}
+.mentionsl{
+	font-size: 12px;
+	padding-top: 10px;
+	position: 
 
 }
 footer{
-	flex-wrap: wrap-reverse;
+	margin-top: 80px;
 	text-align: center;
-	padding-top: 10px;
-	font-size: 12px;
+
 }
 
