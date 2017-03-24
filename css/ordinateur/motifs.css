@@ -1,0 +1,13 @@
+body{
+	background: white;
+	font-family: roboto, sans-serif, arial;
+}
+
+nav ul{
+    list-style-type: none; /*Enleve les puces*/
+    display: flex;
+}
+
+.panier{
+margin-right: : 5px;
+}
