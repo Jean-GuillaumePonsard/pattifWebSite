@@ -17,7 +17,9 @@ nav ul {
 .conteneur{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin: 150px;
+	padding: 90px;
 
 }
 .article{
@@ -28,11 +30,7 @@ nav ul {
 
 }
 
-.article3{
-	
-}
 
 .article4{
-
 
 }
