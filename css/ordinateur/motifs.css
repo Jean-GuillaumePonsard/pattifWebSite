@@ -1,13 +1,38 @@
 body{
 	background: white;
 	font-family: roboto, sans-serif, arial;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 75px;
+	margin-bottom: 75px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none; /*Enleve les puces*/
-    display: flex;
+    display: flex 75px;
+    text-decoration: none;
+
+
+}
+.conteneur{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.article{
+	
 }
 
-.panier{
-margin-right: : 5px;
+.article2{
+
+}
+
+.article3{
+	
+}
+
+.article4{
+
+
 }
