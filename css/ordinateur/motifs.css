@@ -54,26 +54,37 @@ nav ul li a:hover{
 .conteneur{
 
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: row;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: center;
 	margin-top: 50px;
+	margin-left: 300px;
+	margin-right: 5%;
+	
 
+}
+.conteneur img{
+	width: 90%;
 }
 
 .article{
-	margin-left: 600px;
+	margin-top: 10%;
+	
 }
 
 .article2{
-	margin-right: 600px;
+	
+	
 }
 
 .article3{
-	margin-left: 600px;
+	margin-top: 10%;
 }
 
 .article4{
-	margin-right: 600px;
+	
+	
 }
 
 .social{
@@ -82,9 +93,9 @@ nav ul li a:hover{
 	color: #d33b26;
 }
 .mentionsl{
-	
+
 	padding-top: 10px;
-	position: 
+	
 }
 .social a{
 	color: #d33b26;
