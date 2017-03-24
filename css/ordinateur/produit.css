@@ -1,0 +1,43 @@
+body {
+	font-family: helvetica;
+	background-color: white;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top:75px;
+	margin-bottom: 75px;
+}
+
+a {
+	/* Suppression des décorations par défaut */
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	/* Mise en place des boites */
+	display: flex;
+	flex-direction: row;
+	/* modifs police de caractères */
+	color: white;
+	font-weight: bold;
+	justify-content: space-between;
+}
+
+
+header h1 {
+	flex: 1;
+	margin-top: -20px;
+}
+
+header h1 a {
+	color: white;
+}
+
+footer a{
+	font-weight: bold;
+	color: #d33b26;
+}
+
+.bandeau {
+	height: 100%;
+}
