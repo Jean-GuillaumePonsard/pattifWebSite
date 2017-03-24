@@ -111,12 +111,46 @@ section article:hover {
 
 
 
+.gallerie {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.gallerie img {
+	width: 20%;
+	margin: auto;
+	margin-top: 60px;
+}
 
 .infos {
 	padding-top: 10px;
 	font-size: 12px;
 }
 
-.rsocial a {
+footer .rsocial {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+footer .rsocial a {
 	color: #d33b26;
+	font-weight: bold;
+}
+
+footer .rsocial a:hover {
+	color: black;
+}
+
+
+footer {
+	text-align: center;
+}
+
+footer .pattiforever {
+	color: #d33b26;
+	font-weight: bold;
 }
