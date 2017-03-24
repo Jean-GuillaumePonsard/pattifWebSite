@@ -1,16 +1,31 @@
 body {
 	font-family: helvetica;
 	background-color: white;
-	margin-left: 70px;
-	margin-right: 70px;
-	margin-top:75px;
 	margin-bottom: 75px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 70px;
 }
+
 
 a {
 	/* Suppression des décorations par défaut */
 	text-decoration: none;
 	color: black;
+}
+
+.bandeau {
+	height: 100vh;
+	width: 50vw;
+	float: left;
+	position: fixed;
+}
+
+.bandeau img {
+	padding-left: 0%;
+	padding-right: 0%;
+	height: 100vh;
+	width: 40vw;
 }
 
 header {
@@ -21,8 +36,10 @@ header {
 	color: white;
 	font-weight: bold;
 	justify-content: space-between;
-}
+	margin-left: 70px;
+	padding-top:75px;
 
+}
 
 header h1 {
 	flex: 1;
@@ -31,6 +48,7 @@ header h1 {
 
 header h1 a {
 	color: white;
+	position: absolute;
 }
 
 footer a{
@@ -38,6 +56,28 @@ footer a{
 	color: #d33b26;
 }
 
-.bandeau {
-	height: 100%;
+header .panier {
+	color: #d33b26;
+}
+
+section {
+	margin-left: 40vw;
+	padding-left: 50px;
+	padding-top: 105px;
+}
+
+section article {
+	margin-bottom: 60px;
+}
+
+section article img {
+	padding-bottom: 15px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+footer{
+	text-align: right;
 }
