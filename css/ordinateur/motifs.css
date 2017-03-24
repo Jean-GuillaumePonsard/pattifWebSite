@@ -47,7 +47,10 @@ nav ul li {
 nav ul li a:hover{
 	color: #d33b26;
 }
-
+.infos{
+	padding-top: 10px;
+	font-size: 12px;
+}
 .conteneur{
 
 	display: flex;
@@ -74,13 +77,13 @@ nav ul li a:hover{
 }
 
 .social{
-	flex-wrap: wrap;
-	display: flex;
-	text-align: center;
-	padding-top: 10px;
-	font-size: 15px;
+	
+}
+.mentions1{
+
 }
 footer{
+	flex-wrap: wrap-reverse;
 	text-align: center;
 	padding-top: 10px;
 	font-size: 12px;
